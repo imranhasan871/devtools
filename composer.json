@@ -1,5 +1,5 @@
 {
-	"name": "imran/devtools",
+	"name": "imranhasan871/devtools",
 	"description": "Laravel Dev Utility package — provides a /dev endpoint for local development (clean, migrate, seed helpers).",
 	"type": "library",
 	"license": "MIT",
