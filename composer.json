@@ -1,0 +1,32 @@
+{
+	"name": "imran/devtools",
+	"description": "Laravel Dev Utility package — provides a /dev endpoint for local development (clean, migrate, seed helpers).",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Imran Hasan",
+			"email": "imranhasan871@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/imranhasan871/devtools/issues",
+		"source": "https://github.com/imranhasan871/devtools"
+	},
+	"require": {
+		"php": "^8.0",
+		"illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Imran\\DevTools\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Imran\\DevTools\\DevToolsServiceProvider"
+			]
+		}
+	}
+}
